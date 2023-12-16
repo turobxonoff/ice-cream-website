@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Website</title>
+    <!-- Logo image file link -->
+    <link rel="icon" href="./images/favicon.jpg">
+    <!-- Fontawesome cdn file link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom Css file link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Custom Responsive Css file link -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Custom Swiper file link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- lightgallery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Navbar section -->
+        <section class="navbar_section">
+            <a href="#" class="logo"><i class="fas fa-ice-cream"></i> Muzqaymoq</a>
+
+            <div class="navbar_links">
+                <a href="#home">uy</a>
+                <a href="#about">haqida</a>
+                <a href="#menu">menu</a>
+                <a href="#gallery">galereya</a>
+                <a href="#reviews">ko'rishlar</a>
+                <a href="#order">buyurtma</a>
+            </div>
+
+            <div id="menu_btn" class="fas fa-bars"></div>
+        </section>
+
+        <!-- Header section home -->
+        <section class="home" id="home">
+            <div class="swiper home-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide" style="background: url(./images/header-1.png) no-repeat;">
+                        <div class="content">
+                            <h3>Qanday turdagi muzqaymoqlarni bilasiz?</h3>
+                            <a href="#" class="btn">boshlash</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background: url(./images/header-2.png) no-repeat;">
+                        <div class="content">
+                            <h3>Qanday turdagi muzqaymoqlarni bilasiz?</h3>
+                            <a href="#" class="btn">boshlash</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide" style="background: url(./images/header-3.png) no-repeat;">
+                        <div class="content">
+                            <h3>Qanday turdagi muzqaymoqlarni bilasiz?</h3>
+                            <a href="#" class="btn">boshlash</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </section>
+        
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <!-- About us section -->
+        <section class="about" id="about">
+            <h1 class="heading">biz haqimizda</h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="./images/aboutus.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>Siz uchun uyda tayyorlangan muzqaymoqlar</h3>
+                    <p>Muzqaymoq — tuxum, qaymoq yoki turli mevalardan tayyorlanadigan yaxna shirinlik. Muzqaymoq uchun dastlab asosiy masalliq birikmasini tayyorlash va birikmani muzlatish jarayoni talab etiladi. </p>
+                    <p>Qaymoqli muzqaymoq uchun tuxum yoki tuxum sarigʻi shakar bilan qorishtirib iylanadi, shakari erigach, issiq sut quyiladi va chil-choʻp bilan betoʻxtov aylantirib turiladi. Idishda yaxshi aralashgan quyuq massa hosil boʻladi.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu section -->
+        <section class="menu" id="menu">
+            <h1 class="heading">Bizning menyu</h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/menu-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">Haqiqiy qulupnayli muzqaymoq</h3>
+                        <p>Uy qurilishi qulupnayli muzqaymoq juda boy va qaymoqli, ajoyib yangi qulupnay ta'mi bilan. Uning tuxumi va pishirilishi bepul va tayyorlash juda oson!</p>
+                        <div class="price">6ming so'm <span>5ming so'm</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/menu-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">Haqiqiy Vanillali muzqaymoq </h3>
+                        <p>Vanilli muzqaymoq krem ​​asosi, shakar, qaymoq va haqiqiy vanil loviyalaridan tayyorlanadi. Bu klassik va juda yaxshi! Uni karamel sousi yoki bir bo'lak olma pirogi bilan</p>
+                        <div class="price">5ming so'm <span>4ming so'm</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/menu-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">Haqiqiy Blueberry muzqaymoq</h3>
+                        <p>Ushbu yangi, silliq va qaymoqli muzqaymoq - bu mavsumda yangi ko'k mevalardan zavqlanishning eng zo'r usuli. Bu nafaqat mazali, balki juda chiroyli!</p>
+                        <div class="price">6ming so'm <span>5ming so'm</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/menu-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">Haqiqiy limonli muzqaymoq</h3>
+                        <p>Yangi limonli muzqaymoq siz hech qachon iste'mol qilmagan, uy qurilishi yoki do'konda sotib olingan muzqaymoqlarga o'xshamaydi.</p>
+                        <div class="price">6ming so'm <span>5ming so'm</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/menu-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">Haqiqiy olxo'ri muzqaymoq</h3>
+                        <p>Olxo'ri muzqaymoq muzlatishdan oldin biroz tayyorgarlikni talab qiladi. Siz o'riklaringizni maydalab, toshni olib tashlaysiz.</p>
+                        <div class="price">6ming so'm <span>5ming so'm</span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="./images/menu-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">Haqiqiy malinali muzqaymoq</h3>
+                        <p>Yangi malinali uy qurilishi muzqaymoq silliq, qaymoqli va mazali, yangi malina bilan to'ldirilgan. Mukammal, tetiklantiruvchi yozgi desert.</p>
+                        <div class="price">$15.66 <span>19.95</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Gallery section -->
+        <section class="gallery" id="gallery">
+            <h1 class="heading"> Bizning galereya </h1>
+
+            <div class="gallery-container">
+
+                <a href="./images/gallery1.jpg" class="box">
+                    <img src="./images/gallery1.jpg" alt="">
+                    <div class="icon"><i class="fas fa-plus"></i></div>
+                </a>
+
+                <a href="./images/gallery2.jpg" class="box">
+                    <img src="./images/gallery2.jpg" alt="">
+                    <div class="icon"><i class="fas fa-plus"></i></div>
+                </a>
+
+                <a href="./images/gallery3.jpg" class="box">
+                    <img src="./images/gallery3.jpg" alt="">
+                    <div class="icon"><i class="fas fa-plus"></i></div>
+                </a>
+
+                <a href="./images/gallery4.jpg" class="box">
+                    <img src="./images/gallery4.jpg" alt="">
+                    <div class="icon"><i class="fas fa-plus"></i></div>
+                </a>
+
+                <a href="./images/gallery5.jpg" class="box">
+                    <img src="./images/gallery5.jpg" alt="">
+                    <div class="icon"><i class="fas fa-plus"></i></div>
+                </a>
+
+                <a href="./images/gallery6.jpg" class="box">
+                    <img src="./images/gallery6.jpg" alt="">
+                    <div class="icon"><i class="fas fa-plus"></i></div>
+                </a>
+
+                <a href="./images/gallery7.jpg" class="box">
+                    <img src="./images/gallery7.jpg" alt="">
+                    <div class="icon"><i class="fas fa-plus"></i></div>
+                </a>
+
+                <a href="./images/gallery8.jpg" class="box">
+                    <img src="./images/gallery8.jpg" alt="">
+                    <div class="icon"><i class="fas fa-plus"></i></div>
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Order now section -->
+        <section class="order" id="order">
+            <h1 class="heading">Hozir buyurtma bering</h1>
+
+            <form action="">
+
+                <div class="box-container">
+
+                    <div class="box">
+                        <div class="inputBox">
+                            <span>To'liq ismingiz</span>
+                            <input type="text" placeholder="ismingizni kiriting">
+                        </div>
+    
+                        <div class="inputBox">
+                            <span>Muzqaymoq nomi</span>
+                            <input type="text" placeholder="Qanday muzqaymoq xohlaysiz">
+                        </div>
+    
+                        <div class="inputBox">
+                            <span>buyurtma tafsilotlari</span>
+                            <input type="text" placeholder="qandayligi">
+                        </div>
+    
+                        <div class="inputBox">
+                            <span>manzilingiz</span>
+                            <textarea name="" placeholder="manzilingizni kiriting" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <div class="inputBox">
+                            <span>Telefon raqam</span>
+                            <input type="number" placeholder="Telefon raqamingizni kiriting">
+                        </div>
+    
+                        <div class="inputBox">
+                            <span>Nechtaligi</span>
+                            <input type="number" placeholder="Nechta xohlaysiz">
+                        </div>
+    
+                        <div class="inputBox">
+                            <span>Qachonga xohlaysiz</span>
+                            <input type="datetime-local">
+                        </div>
+    
+                        <div class="inputBox">
+                            <span>Bizning manzil</span>
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1519.8930965189647!2d71.78244457436753!3d40.369264930263135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb85cb0425cf41%3A0x632d0b33a5a974b9!2sCafe%20Gelato!5e0!3m2!1sen!2s!4v1702124024052!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+                <input type="submit" value="buyurtma bering" class="btn">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+
+        <section class="footer">
+            
+            <div class="icons-container">
+
+                <div class="icons">
+                    <i class="fas fa-map"></i>
+                    <h3>manzil</h3>
+                    <p>Farg'ona shahar, O'zbekiston <br> Frunzenskiy massiv</p>
+                </div>
+
+                <div class="icons">
+                    <i class="fas fa-phone"></i>
+                    <h3>telefon raqam</h3>
+                    <p>+998903447256</p>
+                </div>
+
+                <div class="icons">
+                    <i class="fas fa-envelope"></i>
+                    <h3>email</h3>
+                    <a href="#">123example@gmail.com</a>
+                </div>
+
+                <div class="icons">
+                    <i class="fas fa-clock"></i>
+                    <h3>Ish vaqti</h3>
+                    <p>Dushanba - Shanba: 7:00 - 22:00 <br> Yakshanba - dam olish</p>
+                </div>
+
+            </div>
+
+            <div class="share">
+                <a href="https://facebook.com" class="fab fa-facebook-f"></a>
+                <a href="https://twitter.com/turobxonov_11" class="fab fa-twitter"></a>
+                <a href="https://instagram.com/turobxonoff" class="fab fa-instagram"></a>
+                <a href="https://t.me/turobxonoff" class="fab fa-telegram"></a>
+            </div>
+
+            <div class="credit"><span>turobxonov</span> tomonidan yaratildi  |  barcha huquqlar ximoyalangan!</div>
+
+        </section>
+
+    </footer>
+
+
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Custom Swiper JS file link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS file link -->
+    <script src="./js/script.js"></script>
+
+    
+    <!-- lightgallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>       
+</body>
+</html>
